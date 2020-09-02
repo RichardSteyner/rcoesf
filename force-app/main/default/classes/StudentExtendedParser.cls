@@ -1,0 +1,44 @@
+public class StudentExtendedParser {
+    
+    public Integer PermanentID {get;set;}
+    public Integer SchoolCode {get;set;}
+    public Integer StudentNumber {get;set;}
+    public String StateStudentID {get;set;}
+    public Datetime SchoolCompletionDate {get;set;}
+    public String SchoolCompletionStatusCode {get;set;}
+    public String QualifiedUC {get;set;}
+    public String QualifiedCSU {get;set;}
+    public String CourseCompletionUC {get;set;}
+    public String CourseCompletionCSU {get;set;}
+    public String InterIntraDistrictTransferCode {get;set;}
+    public String InterIntraDistrictStateCode {get;set;}
+    public String GraduationRequirementsTrack {get;set;}
+    public Datetime SafeSchoolsActViolationDate {get;set;}
+    public String SchedulingGroup {get;set;}
+    public Datetime ExpectedGraduationDate {get;set;}
+    public String SummerWithdrawalReasonCode {get;set;}
+    public String EndOfYearStatusCode {get;set;}
+    public Datetime RecordAddedDateTime {get;set;}
+    public String RecordAddedSystem {get;set;}
+    public Integer SchoolMobility {get;set;}
+    public Integer DistrictMobility {get;set;}
+    public String USSchoolsLessThan3Years {get;set;}
+    public Datetime USEnterDate {get;set;}
+    public Datetime USSchoolEnterDate {get;set;}
+    public Datetime StateSchoolEnterDate {get;set;}
+    public Datetime DateRedesignatedFluentEnglishProficient {get;set;}
+    public String HomeLanguageSurveyFirstLanguageCode {get;set;}
+    public String HomeLanguageSurveyPrimaryLanguageCode {get;set;}
+    public String HomeLanguageSurveyHomeLanguageCode {get;set;}
+    public String HomeLanguageSurveyAdultLanguageCode {get;set;}
+    public String EnglishLearnerProgramCode {get;set;}
+    public String EnglishLearnerServiceCode {get;set;}
+    public Datetime EnglishLearnerStartDate {get;set;}
+    public Datetime EnglishLearnerEndDate {get;set;}
+    public String LongTermEnglishLearnerCode {get;set;}
+    public Integer YearsAsEnglishLearner {get;set;}
+    public String BirthCity {get;set;}
+    public String BirthStateCode {get;set;}
+    public String BirthCountryCode {get;set;}
+
+}
